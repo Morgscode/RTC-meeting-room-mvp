@@ -45,7 +45,7 @@ const meetingModule = (async function () {
             devices["video"] = true;
             break;
           case "audioinput":
-            devices["audio"] = true;
+            devices["audio"] = false;
             break;
         }
       });
